@@ -13,6 +13,12 @@
 		464634BB1CC19140003DAB09 /* VideoPlayRecord.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 464634B91CC19140003DAB09 /* VideoPlayRecord.xcdatamodeld */; };
 		464634BD1CC19140003DAB09 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 464634BC1CC19140003DAB09 /* Assets.xcassets */; };
 		464634C01CC19140003DAB09 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 464634BE1CC19140003DAB09 /* LaunchScreen.storyboard */; };
+		464634C81CC1AAF3003DAB09 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 464634C71CC1AAF3003DAB09 /* AssetsLibrary.framework */; };
+		464634CA1CC1AAFE003DAB09 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 464634C91CC1AAFE003DAB09 /* AVFoundation.framework */; };
+		464634CC1CC1AB0C003DAB09 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 464634CB1CC1AB0C003DAB09 /* CoreMedia.framework */; };
+		464634CE1CC1AB1C003DAB09 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 464634CD1CC1AB1C003DAB09 /* MediaPlayer.framework */; };
+		464634D01CC1AB32003DAB09 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 464634CF1CC1AB32003DAB09 /* MobileCoreServices.framework */; };
+		464634D21CC1AB3D003DAB09 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 464634D11CC1AB3D003DAB09 /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +30,12 @@
 		464634BC1CC19140003DAB09 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		464634BF1CC19140003DAB09 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		464634C11CC19140003DAB09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		464634C71CC1AAF3003DAB09 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		464634C91CC1AAFE003DAB09 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		464634CB1CC1AB0C003DAB09 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		464634CD1CC1AB1C003DAB09 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		464634CF1CC1AB32003DAB09 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		464634D11CC1AB3D003DAB09 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +43,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				464634D21CC1AB3D003DAB09 /* QuartzCore.framework in Frameworks */,
+				464634D01CC1AB32003DAB09 /* MobileCoreServices.framework in Frameworks */,
+				464634CE1CC1AB1C003DAB09 /* MediaPlayer.framework in Frameworks */,
+				464634CC1CC1AB0C003DAB09 /* CoreMedia.framework in Frameworks */,
+				464634CA1CC1AAFE003DAB09 /* AVFoundation.framework in Frameworks */,
+				464634C81CC1AAF3003DAB09 /* AssetsLibrary.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +58,12 @@
 		464634A61CC19140003DAB09 = {
 			isa = PBXGroup;
 			children = (
+				464634D11CC1AB3D003DAB09 /* QuartzCore.framework */,
+				464634CF1CC1AB32003DAB09 /* MobileCoreServices.framework */,
+				464634CD1CC1AB1C003DAB09 /* MediaPlayer.framework */,
+				464634CB1CC1AB0C003DAB09 /* CoreMedia.framework */,
+				464634C91CC1AAFE003DAB09 /* AVFoundation.framework */,
+				464634C71CC1AAF3003DAB09 /* AssetsLibrary.framework */,
 				464634B11CC19140003DAB09 /* VideoPlayRecord */,
 				464634B01CC19140003DAB09 /* Products */,
 			);
